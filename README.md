@@ -7,7 +7,7 @@ In the Outcomes category I assigned a different color to correspond to each diff
 
 Next I created three new tables, each with a corresponding pivot table and graph. 
 
-The first displays the outcomes for each parent category. ![Category Stats](https://github.com/[MaxV6ft4][kickstarter-analysis]/blob/[main]/Category Stats.png?raw=true)
+The first displays the outcomes for each parent category. ![Category Stats](https://github.com/[MaxV6ft4][kickstarter-analysis]/blob/[main]/Category Stats.png)
 We can see that there are 839 total successes in theater campaigns.  Upon filtering the pivot table to show only US theater campaigns, we see that 525 of them were successful.  The UK only produced 258 successful theater campaigns.
 
 The second table displays the outcomes for each subcategory.  ![Subcategory Stats](path/to/Subcategory Stats.png)

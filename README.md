@@ -3,9 +3,10 @@ In this spreadsheet, you will find that I have added into the main table a perce
 
 [Max V analysis](https://github.com/MaxV6ft4/kickstarter-analysis/blob/main/Max_V_kickstarter_analysis.xlsb)
 
-## Basic analysis
-In the Outcomes category I assigned a different color to correspond to each different type of outcome.  Then I created two new columns (O and P) called Percentage Funded and Average Donation, respectively.  In Percentage Funded, I divided the goal by the total amount pledged, then multiplied by 100 to show the result as a percentile.  Additionally I used conditional formatting to display successfully funded campaigns in blue and failed campaigns in red.  For successful campaigns, the lighter the blue means the amount funded went well over 100 percent.  For failed campaigns, the lighter the red means the amount funded was almost or at zero.  In Average Donation I divided the number of project backers by the total amount pledged.  Finally, I created two new columns at the very end of the table which converted the beginning and end of each launch date from unix timestamps to regular dates. 
+## Basic Analysis
+In the Outcomes category I assigned a different color to correspond to each different type of outcome.  Then I created two new columns (O and P) called Percentage Funded and Average Donation, respectively.  In Percentage Funded, I divided the goal by the total amount pledged, then multiplied by 100 to show the result as a percent.  Additionally I used conditional formatting to display successfully funded campaigns in blue and failed campaigns in red.  For successful campaigns, the lighter the blue means the amount funded went well over 100 percent.  For failed campaigns, the lighter the red means the amount funded was almost or at zero.  In Average Donation I divided the number of project backers by the total amount pledged for each campaign.  Finally, I created two new columns at the very end of the table which converted the beginning and end of each launch date from unix timestamps to regular dates. 
 
+### Outcomes
 Next I created three new tables, each with a corresponding pivot table and graph. 
 
 The first displays the outcomes for each parent category. 
@@ -26,13 +27,16 @@ Finally, the third table displays the outcomes for each parent category based on
 
 May is clearly the most successful month.  June looks promising as well, but upon closer inspection we can see that the number of failed campaigns increased from May to June and stayed that way through July.  Start your campaign in May!
 
-Based on your interest in five plays that took place at Fringe, I created a new table (Edinburgh Research) featuring the plays, their goals, amounts pledged, the number of backers and the average donation per backer.  All five campaigns were successful, and nearly each one had a total amount pledged reach just slightly over the goal, but the biggest goal was only $4,000, two-thirds less than your hopeful goal of $12,000.  The average campaign donation ranged between $33 and $52 per backer, but the real difference lies in the number of backers for each play (less backers means more money donated per backer).  Formulate your gameplan ahead of time in order to gain as many backers as possible!  Some campaigns don't last too long, either.  For example, the successful campaign for the play Walken On Sunshine had 173 backers, averaged $71.24 per donation, and lasted only for one month!
+### Fringe Festival Analysis
+Based on your interest in five plays that took place at Fringe, I created a new table (Edinburgh Research) featuring the plays, their goals, amounts pledged, the number of backers and the average donation per backer.  All five campaigns were successful, and nearly each one had a total amount pledged reach just slightly over the goal, but the biggest goal was only $4,000, two-thirds less than your hopeful goal of $12,000.  The average campaign donation ranged between $33 and $52 per backer, but the real difference lies in the number of backers for each play (less backers means more money donated per backer).  Formulate your gameplan ahead of time in order to gain as many backers as possible!  Some campaigns don't last too long, either.  For example, the successful campaign for the play Walken On Sunshine had 173 backers, averaged $71.24 per donation, and lasted only for a month!
 
 ## Statistical Analysis
 Since you desire to create and put on a play in the United States, I created new tables using data filtered from the Kickstarter sheet to only include successful and failed US plays, respectively.  Then I created a third table (Descriptive Statistics) containing the mean, median, standard deviation and quartiles for the campaign goals and amounts pledged.  Let's start with means and medians.
 
+### Mean and Median
 The mean (average) goal for successful campaigns is just over $5000, and the median (middle number) is $3000. However, for failed campaigns the mean lies around $10,550 and the median is $5000, both higher than the successful mean and median.  This does not fit into your $12,000 goal that well.  Furthermore, the mean total amount pledged for successful campaigns is $5600, and the median is around $3100, both very close to the mean and median goals.  But, *both the mean and median total amounts pledged for failed campaigns don't even reach $1000*.  This means that there is another factor besides money making people hesitant to back these plays.  As I mentioned before, you should have a clear vision of what you want out of your play before you begin your campaign, in case there are some backers that are on the fence about making a pledge.
 
+### Standard Deviation and Quartiles
 There are three additional factors to consider here.  
 -The standard deviation for the goals and pledges of both successsful and failed campaigns is larger than the mean.  This means that the majority of campaign goals and pledges beneath the mean lie close to the median.  
 -The upper quartiles (where 75% of the data is less than the number listed there) for the goals and pledges of both successful and failed campaigns just about equal their respective means. 

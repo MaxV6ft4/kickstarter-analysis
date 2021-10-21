@@ -9,15 +9,21 @@ In the Outcomes category I assigned a different color to correspond to each diff
 Next I created three new tables, each with a corresponding pivot table and graph. 
 
 The first displays the outcomes for each parent category. 
+
 ![Category Stats](https://github.com/[MaxV6ft4]/[kickstarter-analysis]/blob/[main]/Category_Stats.png)
+
 We can see that there are 839 total successes in theater campaigns.  Upon filtering the pivot table to show only US theater campaigns, we see that 525 of them were successful.  The UK only produced 258 successful theater campaigns.
 
-The second table displays the outcomes for each subcategory.  
+The second table displays the outcomes for each subcategory. 
+
 ![Subcategory Stats](https://github.com/[MaxV6ft4]/[kickstarter-analysis]/blob/[main]/Subcategory_Stats.png)
+
 Here, plays are clearly the winner, with 694 successful campaigns, 412 of which took place in the US.  It looks like you have chosen the correct country to produce a play in.
 
 Finally, the third table displays the outcomes for each parent category based on the launch date.  
+
 ![Outcomes Based On Launch Date](https://github.com/[MaxV6ft4]/[kickstarter-analysis]/blob/[main]/Outcomes_Based_On_Launch_Date.png)
+
 May is clearly the most successful month.  June looks promising as well, but upon closer inspection we can see that the number of failed campaigns increased from May to June and stayed that way through July.  Start your campaign in May!
 
 Based on your interest in five plays that took place at Fringe, I created a new table (Edinburgh Research) featuring the plays, their goals, amounts pledged, the number of backers and the average donation per backer.  All five campaigns were successful, and nearly each one had a total amount pledged reach just slightly over the goal, but the biggest goal was only $4,000, two-thirds less than your hopeful goal of $12,000.  The average campaign donation ranged between $33 and $52 per backer, but the real difference lies in the number of backers for each play (less backers means more money donated per backer).  Formulate your gameplan ahead of time in order to gain as many backers as possible!  Some campaigns don't last too long, either.  For example, the successful campaign for the play Walken On Sunshine had 173 backers, averaged $71.24 per donation, and lasted only for one month!
@@ -35,6 +41,7 @@ We can conclude from these factors that the dataset is being lead by some very, 
 
 ## Analysis On Musicals In Great Britain
 ![GB Musicals Box Plot](https://github.com/[MaxV6ft4]/[kickstarter-analysis]/blob/[main]/GB_Musicals_Box_Plot.png)
+
 Above are respective box plots on goals and amounts pledged for musicals taking place in the UK, since you have expressed interest in creating a musical there.  Here, the mean goal (where the x is located within the plot) is just around 4000GBP, which looks fine based on your 4000GBP budget, but if we look at the box plot for amounts pledged, we see that 4000GBP is well above that mean (less than 2000GBP).  I would recommend halving your budget for a UK musical, should you choose to proceed with the campaign.
 
 # Conclusion

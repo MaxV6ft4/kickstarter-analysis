@@ -10,10 +10,10 @@ Next I created three new tables, each with a corresponding pivot table and graph
 The first displays the outcomes for each parent category. ![Category Stats](https://github.com/[MaxV6ft4]/[kickstarter-analysis]/blob/[main]/Category_Stats.png)
 We can see that there are 839 total successes in theater campaigns.  Upon filtering the pivot table to show only US theater campaigns, we see that 525 of them were successful.  The UK only produced 258 successful theater campaigns.
 
-The second table displays the outcomes for each subcategory.  ![Subcategory Stats](path/to/Subcategory Stats.png)
+The second table displays the outcomes for each subcategory.  ![Subcategory Stats](https://github.com/[MaxV6ft4]/[kickstarter-analysis]/blob/[main]/Subcategory_Stats.png)
 Here, plays are clearly the winner, with 694 successful campaigns, 412 of which took place in the US.  It looks like you have chosen the correct country to produce a play in.
 
-Finally, the third table displays the outcomes for each parent category based on the launch date.  ![Outcomes Based On Launch Date](path/to/Outcomes Based On Launch Date.png)
+Finally, the third table displays the outcomes for each parent category based on the launch date.  ![Outcomes Based On Launch Date](https://github.com/[MaxV6ft4]/[kickstarter-analysis]/blob/[main]/Outcomes_Based_On_Launch_Date.png)
 May is clearly the most successful month.  June looks promising as well, but upon closer inspection we can see that the number of failed campaigns increased from May to June and stayed that way through July.  Start your campaign in May!
 
 Based on your interest in five plays that took place at Fringe, I created a new table (Edinburgh Research) featuring the plays, their goals, amounts pledged, the number of backers and the average donation per backer.  All five campaigns were successful, and nearly each one had a total amount pledged reach just slightly over the goal, but the biggest goal was only $4,000, two-thirds less than your hopeful goal of $12,000.  The average campaign donation ranged between $33 and $52 per backer, but the real difference lies in the number of backers for each play (less backers means more money donated per backer).  Formulate your gameplan ahead of time in order to gain as many backers as possible!  Some campaigns don't last too long, either.  For example, the successful campaign for the play Walken On Sunshine had 173 backers, averaged $71.24 per donation, and lasted only for one month!

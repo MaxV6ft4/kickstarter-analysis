@@ -37,6 +37,7 @@ There are three additional factors to consider here.
 -The standard deviation for the goals and pledges of both successsful and failed campaigns is larger than the mean.  This means that the majority of campaign goals and pledges beneath the mean lie close to the median.  
 -The upper quartiles (where 75% of the data is less than the number listed there) for the goals and pledges of both successful and failed campaigns just about equal their respective means. 
 -The standard deviations are all more than double the Inter-quartile ranges (the difference between the upper and lower quartile, the lower quartile being where 25% of the data is less than the number listed there).  
+
 We can conclude from these factors that the dataset is being lead by some very, very large numbers, more specfically certain large campaign goals that have mostly failed.  Therefore I would highly recommend reducing your $12,000 goal by about 75% if you want a better chance at successfully kickstarting a play in the US.
 
 ## Analysis On Musicals In Great Britain

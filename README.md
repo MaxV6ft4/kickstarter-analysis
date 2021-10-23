@@ -1,7 +1,7 @@
 # Kickstarter Analysis for Louise
 
 ## Project Overview
-Based on previous analysis, I was able to help guide Louise towards successfully launchingn a funding campaign for her play, *Fever*.  This time I will be conducting analysis on other campaigns to show Louise how they compare to her own.
+Based on previous analysis, I was able to help guide Louise towards successfully launching a funding campaign for her play, *Fever*.  This time I will be conducting analysis on other campaigns to show Louise how they compare to her own.
 
 ### Purpose
 I have added two new sheets to the workbook to describe to Louise how different kickstarter campaigns have performed in relation to their launch dates as well as to their funding goals.
@@ -28,8 +28,9 @@ When comparing theater outcomes to their launch date, we can see in the graph th
 
 When comparing play outcomes to their campaign goals, we notice that campaigns are most successful when their goals are less than $1000 and are least successful when their goals are between $45,000-$49,999.  The inverse is true for failed campaigns.  They failed the most when their goals were between $45,000-$49,999 and failed the least when their goals were under $1000.  In fact, the entire failed line is the inverse of the entire successful line.
 
-There are a couple limitations in this dataset to consider.
+There are a couple limitations in this dataset to consider:
+
 -in the Theater Outcomes Based On Launch Date sheet, the years available for analysis only span from 2009-2017, not the largest of ranges.  Also, Louise is specifically interested in plays, not theater campaigns in general.  
 -in the Outcomes Based on Goals sheet, the number of successful and failed plays both drop significantly when the goal exceeds $14,999.  The graph displays a low percentage of successful outcomes and a high percentage of failed outcomes using a very limited amount of data.
 
-To correct the first limitation, a third filter displaying subcategories should be added to the pivot table so Louise can see how campaigns for other plays fared in comparison to her own.  For the second limiation, another graph should be created to display the *number* of plays on the y-axis instead of the percentage to get a more detailed picture of the outcomes per goal range.
+To correct the first limitation, a third filter displaying subcategories should be added to the pivot table so Louise can see how campaigns for other plays fared in comparison to her own.  For the second limiation, another graph should be created to display the *number* of plays on the y-axis instead of the percentage to get a more detailed picture of outcomes per goal range.
